@@ -1,0 +1,128 @@
+[
+  {
+    "id": "eldritch_blast",
+    "name": "Eldritch Blast",
+    "level": 0,
+    "school": "Evocation",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "mage_hand",
+    "name": "Mage Hand",
+    "level": 0,
+    "school": "Conjuration",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "minor_illusion",
+    "name": "Minor Illusion",
+    "level": 0,
+    "school": "Illusion",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "prestidigitation",
+    "name": "Prestidigitation",
+    "level": 0,
+    "school": "Transmutation",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "armor_of_agathys",
+    "name": "Armor of Agathys",
+    "level": 1,
+    "school": "Abjuration",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "hex",
+    "name": "Hex",
+    "level": 1,
+    "school": "Enchantment",
+    "castingTime": "1 bonus action"
+  },
+  {
+    "id": "hellish_rebuke",
+    "name": "Hellish Rebuke",
+    "level": 1,
+    "school": "Evocation",
+    "castingTime": "1 reaction"
+  },
+  {
+    "id": "mirror_image",
+    "name": "Mirror Image",
+    "level": 2,
+    "school": "Illusion",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "misty_step",
+    "name": "Misty Step",
+    "level": 2,
+    "school": "Conjuration",
+    "castingTime": "1 bonus action"
+  },
+  {
+    "id": "counterspell",
+    "name": "Counterspell",
+    "level": 3,
+    "school": "Abjuration",
+    "castingTime": "1 reaction"
+  },
+  {
+    "id": "hunger_of_hadar",
+    "name": "Hunger of Hadar",
+    "level": 3,
+    "school": "Conjuration",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "banishment",
+    "name": "Banishment",
+    "level": 4,
+    "school": "Abjuration",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "dimension_door",
+    "name": "Dimension Door",
+    "level": 4,
+    "school": "Conjuration",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "hold_monster",
+    "name": "Hold Monster",
+    "level": 5,
+    "school": "Enchantment",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "mass_suggestion",
+    "name": "Mass Suggestion",
+    "level": 6,
+    "school": "Enchantment",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "forcecage",
+    "name": "Forcecage",
+    "level": 7,
+    "school": "Evocation",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "power_word_stun",
+    "name": "Power Word Stun",
+    "level": 8,
+    "school": "Enchantment",
+    "castingTime": "1 action"
+  },
+  {
+    "id": "foresight",
+    "name": "Foresight",
+    "level": 9,
+    "school": "Divination",
+    "castingTime": "1 action"
+  }
+]

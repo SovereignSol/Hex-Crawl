@@ -1,93 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warlock Character Sheet</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="manifest" href="manifest.webmanifest">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Warlock Sheet (Automated)</title>
+  <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
-    <div class="tabs">
-        <button class="tab-button active" data-tab="sheet">Sheet</button>
-        <button class="tab-button" data-tab="spells">Spells</button>
-        <button class="tab-button" data-tab="levelup">Level Up</button>
-        <button class="tab-button" data-tab="battle">Battle</button>
+  <header class="app-header">
+    <div class="row">
+      <div class="brand">
+        <div class="ui-tag">UI-001</div>
+        <div>
+          <div class="title">Warlock Sheet (Automated)</div>
+          <div class="subtitle">Warlock-only, transactional leveling, automation-first</div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="btn-new" class="btn">
+          <span class="ui-tag">UI-002</span>
+          New Character
+        </button>
+        <button id="btn-levelup" class="btn primary">
+          <span class="ui-tag">UI-011</span>
+          Level Up
+        </button>
+        <button id="btn-shortrest" class="btn">
+          <span class="ui-tag">UI-012</span>
+          Short Rest
+        </button>
+        <button id="btn-longrest" class="btn">
+          <span class="ui-tag">UI-013</span>
+          Long Rest
+        </button>
+      </div>
     </div>
+  </header>
 
-    <div id="sheet" class="tab-content active">
-        <!-- Warlock-specific character sheet -->
-        <div class="section">
-            <h2>Identity</h2>
-            <input type="text" id="char-name" placeholder="Name">
-            <input type="text" id="alignment" placeholder="Alignment">
-            <input type="text" id="race" placeholder="Race">
-            <input type="text" id="background" placeholder="Background">
-            <input type="text" id="patron" placeholder="Otherworldly Patron">
+  <main class="app">
+    <section class="panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="ui-tag">UI-020</span>
+          Character
         </div>
+      </div>
 
-        <div class="section">
-            <h2>Warlock Class</h2>
-            <div class="warlock-level">
-                <label>Warlock Level: </label>
-                <input type="number" id="warlock-level" min="1" max="20" value="1">
-            </div>
-            <div class="subclass">
-                <label>Patron Type: </label>
-                <select id="subclass">
-                    <option value="fiend">The Fiend</option>
-                    <option value="archfey">The Archfey</option>
-                    <option value="great-old-one">Great Old One</option>
-                    <option value="celestial">The Celestial</option>
-                    <option value="hexblade">Hexblade</option>
-                </select>
-            </div>
+      <div id="character-summary" class="panel-body"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="ui-tag">UI-030</span>
+          Resources and Actions
         </div>
+      </div>
 
-        <div class="section">
-            <h2>Ability Scores</h2>
-            <div class="ability-scores">
-                <div class="ability">
-                    <label>STR</label>
-                    <input type="number" id="str-score" value="10" min="1" max="30">
-                    <span id="str-mod">+0</span>
-                </div>
-                <!-- Repeat for DEX, CON, INT, WIS, CHA -->
-            </div>
+      <div id="resources-and-actions" class="panel-body"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="ui-tag">UI-040</span>
+          Spells
         </div>
+      </div>
 
-        <div class="section">
-            <h2>Combat</h2>
-            <div class="combat-stats">
-                <div>
-                    <label>HP Max: </label>
-                    <input type="number" id="hp-max" value="8">
-                </div>
-                <div>
-                    <label>HP Current: </label>
-                    <input type="number" id="hp-current" value="8">
-                </div>
-                <div>
-                    <label>AC: </label>
-                    <input type="number" id="ac" value="13">
-                </div>
-                <div>
-                    <label>Initiative: </label>
-                    <span id="initiative">+2</span>
-                </div>
-            </div>
+      <div id="spells-panel" class="panel-body"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="ui-tag">UI-050</span>
+          Debug and Export
         </div>
+      </div>
 
-        <div class="section">
-            <h2>Eldritch Invocations</h2>
-            <div id="invocations-list"></div>
-            <button id="add-invocation">Add Invocation</button>
-        </div>
-    </div>
+      <div id="debug-panel" class="panel-body"></div>
+    </section>
+  </main>
 
-    <!-- Other tab contents would go here -->
+  <div id="modal-root"></div>
 
-    <script src="js/warlock.js"></script>
-    <script src="js/app.js"></script>
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

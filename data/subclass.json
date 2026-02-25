@@ -1,0 +1,19 @@
+{
+  "subclasses": [
+    {
+      "class": "Warlock",
+      "name": "The Archfey",
+      "doc": "Stub: extend later."
+    },
+    {
+      "class": "Warlock",
+      "name": "The Fiend",
+      "doc": "Stub: extend later."
+    },
+    {
+      "class": "Warlock",
+      "name": "The Great Old One",
+      "doc": "Stub: extend later."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "classes": [
+    {
+      "name": "Warlock",
+      "hitDie": 8,
+      "primaryAbility": "CHA",
+      "savingThrows": [
+        "WIS",
+        "CHA"
+      ],
+      "spellcasting": "pact_magic",
+      "notes": "Warlock-only build"
+    }
+  ]
+}

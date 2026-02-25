@@ -1,0 +1,30 @@
+{
+  "cantrips": [
+    "eldritch_blast",
+    "mage_hand",
+    "minor_illusion",
+    "prestidigitation"
+  ],
+  "spellsByLevel": {
+    "1": [
+      "armor_of_agathys",
+      "hex",
+      "hellish_rebuke"
+    ],
+    "2": [
+      "mirror_image",
+      "misty_step"
+    ],
+    "3": [
+      "counterspell",
+      "hunger_of_hadar"
+    ],
+    "4": [
+      "banishment",
+      "dimension_door"
+    ],
+    "5": [
+      "hold_monster"
+    ]
+  }
+}
