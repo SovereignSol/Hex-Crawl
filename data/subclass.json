@@ -1,19 +1,79 @@
+// data/subclass.json
 {
   "subclasses": [
+    { "class": "Warlock", "name": "The Archfey", "doc": "Stub: extend later." },
+    { "class": "Warlock", "name": "The Fiend", "doc": "Stub: extend later." },
+    { "class": "Warlock", "name": "The Great Old One", "doc": "Stub: extend later." },
+
     {
       "class": "Warlock",
-      "name": "The Archfey",
-      "doc": "Stub: extend later."
-    },
-    {
-      "class": "Warlock",
-      "name": "The Fiend",
-      "doc": "Stub: extend later."
-    },
-    {
-      "class": "Warlock",
-      "name": "The Great Old One",
-      "doc": "Stub: extend later."
+      "name": "The Void Bound",
+      "id": "void_bound",
+      "doc": "Otherworldly Patron: The Void Bound",
+      "featuresByLevel": {
+        "1": [
+          {
+            "name": "Soulrend",
+            "rulesText": "Soulrend is psychic damage with these properties: ignores temporary hit points, creatures without souls are immune, resistance to psychic applies to Soulrend."
+          },
+          {
+            "name": "Fractured Essence",
+            "rulesText": "When a creature takes Soulrend damage while below half its HP maximum, it takes extra damage once per turn: 1d4 (PB +2 to +3), 2d4 (PB +4 to +5), 3d4 (PB +6)."
+          },
+          {
+            "name": "Soul Claim",
+            "rulesText": "When a creature you can see within 30 feet drops to 0 HP, you gain 1 Soul Fragment. You can hold a number of Soul Fragments equal to your proficiency bonus. Unspent fragments fade at end of a long rest."
+          },
+          {
+            "name": "Soul Fragment Expenditure",
+            "rulesText": "Mind Sever (spell damage, expend 1 fragment for +1d6 psychic to one target). Vitality Extraction (bonus action, expend 1 fragment for temp HP = 1d8 + CHA mod). Energy Steal (on hit, expend 1 fragment to steal target’s reaction until start of its next turn, you gain a stolen reaction usable before end of your next turn, max 2 stored)."
+          },
+          {
+            "name": "Soul-Fueled Blast",
+            "rulesText": "When you cast Eldritch Blast, you may expend 1 Soul Fragment to empower one beam for +1d8 Soulrend damage (one beam per casting). Potent Essence (11th level): increases to +2d8."
+          },
+          {
+            "name": "Whisper of More",
+            "rulesText": "When you fail an ability check, you may take Soulrend damage equal to your proficiency bonus to reroll it, taking the new result. Uses = CHA modifier, regain all on long rest."
+          },
+          {
+            "name": "Soulbrand",
+            "rulesText": "When you hit a creature with a warlock spell, you may brand it until end of your next turn. Next time it takes damage from you before brand ends, it takes extra Soulrend damage equal to your CHA modifier. Only one creature branded at a time."
+          }
+        ],
+        "6": [
+          {
+            "name": "Willpower Extraction",
+            "rulesText": "While you have at least 1 Soul Fragment: you cannot be frightened, you have resistance to psychic damage. When you gain a Soul Fragment, you gain temp HP equal to your CHA modifier."
+          }
+        ],
+        "8": [
+          {
+            "name": "Transmuter’s Substitute",
+            "rulesText": "You may expend Soul Fragments to replace potion crafting ingredients. Cost: Common 1 (lvl 8), Uncommon 2 (lvl 10), Rare 3 (lvl 12), Legendary 4 (lvl 18). Does not replace tools, time, or unique story components."
+          }
+        ],
+        "10": [
+          {
+            "name": "Emotional Extraction",
+            "rulesText": "At end of a long rest choose one benefit until your next long rest: Rage Extraction (drop to 1 HP instead of 0 once per long rest, plus bonus to death saves = half PB rounded down), Enhanced Willpower Extraction (advantage vs charmed or stunned, can expend 1 Soul Fragment to succeed a failed CON concentration save), Hope Extraction (when you gain temp HP increase by CHA mod, when you expend a Soul Fragment choose a creature within 30 ft to gain temp HP = CHA mod, and when you use Energy Steal you may give the stolen reaction to an ally within 15 ft of you or within 15 ft of the affected creature)."
+          }
+        ],
+        "14": [
+          {
+            "name": "Soul Tapestry",
+            "rulesText": "As an action, fuse carried Soul Fragments into a Philosopher’s Stone within 5 ft (1/long rest). When formed: gain Soul Fragments equal to half PB (rounded down); fragments are bound in the Stone and cannot exceed that number while it persists; Stone begins with 5 bound souls. Each turn, one bound soul escapes. While Stone exists: Perfect Refinement (once/turn treat one Soulrend damage die as max), Transmuted Vitality (once/turn when a creature takes Soulrend damage from you, regain HP = CHA mod), Immutable Will (immune to charmed and frightened), and while at least 1 bound soul remains you cannot be reduced below 1 HP (dropping to 1 instead, plus one extra soul escapes). When Stone shatters: next potion you create within 24 hours costs no ingredients (still needs tools/time), then ends."
+          }
+        ]
+      },
+      "expandedSpellList": {
+        "1": ["bane", "dissonant_whispers"],
+        "2": ["blindness_deafness", "mirror_image"],
+        "3": ["bestow_curse", "speak_with_dead", "revivify"],
+        "4": ["death_ward", "gravity_sinkhole"],
+        "5": ["geas", "awaken", "reincarnate"],
+        "6": ["soul_cage", "contingency"]
+      }
     }
   ]
 }
