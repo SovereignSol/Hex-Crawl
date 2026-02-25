@@ -1,0 +1,109 @@
+{
+  "subclasses": [
+    {
+      "class": "Warlock",
+      "name": "The Archfey",
+      "doc": "Stub: extend later."
+    },
+    {
+      "class": "Warlock",
+      "name": "The Fiend",
+      "doc": "Stub: extend later."
+    },
+    {
+      "class": "Warlock",
+      "name": "The Great Old One",
+      "doc": "Stub: extend later."
+    },
+    {
+      "class": "Warlock",
+      "name": "The Void Bound",
+      "id": "void_bound",
+      "doc": "Otherworldly Patron: The Void Bound (imported from Void Bound Pact PDF).",
+      "featuresByLevel": {
+        "1": [
+          {
+            "name": "Soulrend",
+            "rulesText": "Your power manifests as Soulrend, a form of psychic damage that tears at essence rather than flesh. Soulrend is psychic damage with these properties: (1) It ignores temporary hit points. (2) Creatures without souls are immune to Soulrend damage. (3) A creature with resistance to psychic damage has resistance to Soulrend damage."
+          },
+          {
+            "name": "Fractured Essence",
+            "rulesText": "When a creature takes Soulrend damage while below half its hit point maximum, it takes additional damage equal to 1d4 per proficiency bonus tier, once per turn. PB +2 to +3: 1d4. PB +4 to +5: 2d4. PB +6: 3d4."
+          },
+          {
+            "name": "Soul Claim",
+            "rulesText": "When a creature you can see within 30 feet drops to 0 hit points, you gain 1 Soul Fragment. You can hold a number of Soul Fragments equal to your proficiency bonus. Unspent fragments fade at the end of a long rest."
+          },
+          {
+            "name": "Soul Fragment Expenditure",
+            "rulesText": "You may expend Soul Fragments in the following ways. Mind Sever: When you deal damage with a spell, you may expend 1 Soul Fragment to deal an additional 1d6 psychic damage to one target of that spell. Vitality Extraction: As a bonus action, you may expend 1 Soul Fragment to gain temporary hit points equal to 1d8 + your Charisma modifier. Energy Steal: When you hit a creature with an attack, you may expend 1 Soul Fragment to steal its reaction. The creature cannot take reactions until the start of its next turn. You gain one stolen reaction, usable before the end of your next turn. You may hold a maximum of two reactions at a time. If a stolen reaction is not used before the end of your next turn, it is lost."
+          },
+          {
+            "name": "Soul-Fueled Blast",
+            "rulesText": "When you cast Eldritch Blast, you may expend 1 Soul Fragment to empower one beam. The empowered beam deals an additional 1d8 Soulrend damage. You can empower only one beam per casting of Eldritch Blast. Potent Essence (11th Level): The additional damage increases to 2d8 Soulrend damage."
+          },
+          {
+            "name": "Whisper of More",
+            "rulesText": "When you fail an ability check, you may take Soulrend damage equal to your proficiency bonus to reroll it, taking the new result. You can use this feature a number of times equal to your Charisma modifier, regaining all uses when you finish a long rest."
+          },
+          {
+            "name": "Soulbrand",
+            "rulesText": "When you hit a creature with a warlock spell, you may brand it until the end of your next turn. The next time it takes damage from you before the brand ends, it takes additional Soulrend damage equal to your Charisma modifier. You can brand only one creature at a time."
+          }
+        ],
+        "6": [
+          {
+            "name": "Willpower Extraction",
+            "rulesText": "While you have at least 1 Soul Fragment: (1) You cannot be frightened. (2) You have resistance to psychic damage. When you gain a Soul Fragment, you gain temporary hit points equal to your Charisma modifier."
+          }
+        ],
+        "8": [
+          {
+            "name": "Transmuter’s Substitute",
+            "rulesText": "You may expend Soul Fragments to replace potion crafting ingredients. Cost table: Common 1 (8th), Uncommon 2 (10th), Rare 3 (12th), Legendary 4 (18th). This does not replace tools, time, or unique story components."
+          }
+        ],
+        "10": [
+          {
+            "name": "Emotional Extraction",
+            "rulesText": "At the end of a long rest, choose one benefit until your next long rest. Rage Extraction: When you drop to 0 HP but are not killed outright, you drop to 1 HP instead (once per long rest). You gain a bonus to death saving throws equal to half your proficiency bonus, rounded down. Enhanced Willpower Extraction: You have advantage on saving throws against being charmed or stunned. When you fail a Constitution saving throw to maintain concentration, you can expend 1 Soul Fragment to succeed instead. Hope Extraction: When you gain temporary hit points, increase the amount by your Charisma modifier. When you expend a Soul Fragment, you can choose one creature within 30 feet of you, that creature gains temporary hit points equal to your Charisma modifier. When you use Energy Steal you may give the stolen reaction to an ally within 15 ft of you or within 15 ft of the affected creature."
+          }
+        ],
+        "14": [
+          {
+            "name": "Soul Tapestry",
+            "rulesText": "As an action, you fuse the Soul Fragments you carry into a Philosopher’s Stone that hovers within 5 feet of you (1/long rest). When formed: you gain Soul Fragments equal to half your proficiency bonus (rounded down); these fragments are bound within the Stone and cannot exceed this number while it persists; the Stone begins with 5 bound souls. The Stone lasts until all bound souls escape or you are incapacitated. At the start of each of your turns, one bound soul escapes, when the last soul escapes the Stone shatters. While the Stone exists: Perfect Refinement (once/turn treat one Soulrend damage die as max), Transmuted Vitality (once/turn when a creature takes Soulrend damage from you, regain HP = CHA mod), Immutable Will (immune to charmed and frightened). While it has at least 1 bound soul: you cannot be reduced below 1 HP, if you would drop to 0 you drop to 1 instead and one additional bound soul immediately escapes, possibly shattering the Stone. Alchemical Culmination: When the Stone shatters, the next potion you create within 24 hours costs no ingredients (still needs tools and time), then ends."
+          }
+        ]
+      },
+      "expandedSpellList": {
+        "1": [
+          "bane",
+          "dissonant_whispers"
+        ],
+        "2": [
+          "blindness_deafness",
+          "mirror_image"
+        ],
+        "3": [
+          "bestow_curse",
+          "speak_with_dead",
+          "revivify"
+        ],
+        "4": [
+          "death_ward",
+          "gravity_sinkhole"
+        ],
+        "5": [
+          "geas",
+          "awaken",
+          "reincarnate"
+        ],
+        "6": [
+          "soul_cage",
+          "contingency"
+        ]
+      }
+    }
+  ]
+}

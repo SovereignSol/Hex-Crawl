@@ -1,0 +1,41 @@
+{
+  "cantrips": [
+    "eldritch_blast",
+    "mage_hand",
+    "minor_illusion",
+    "prestidigitation"
+  ],
+  "spellsByLevel": {
+    "1": [
+      "armor_of_agathys",
+      "hex",
+      "hellish_rebuke",
+      "bane",
+      "dissonant_whispers"
+    ],
+    "2": [
+      "mirror_image",
+      "misty_step",
+      "blindness_deafness"
+    ],
+    "3": [
+      "counterspell",
+      "hunger_of_hadar",
+      "bestow_curse",
+      "speak_with_dead",
+      "revivify"
+    ],
+    "4": [
+      "banishment",
+      "dimension_door",
+      "death_ward",
+      "gravity_sinkhole"
+    ],
+    "5": [
+      "hold_monster",
+      "geas",
+      "awaken",
+      "reincarnate"
+    ]
+  }
+}
