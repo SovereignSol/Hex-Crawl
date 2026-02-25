@@ -1,0 +1,64 @@
+{
+  "invocations": [
+    {
+      "name": "Agonizing Blast",
+      "prerequisites": ["Eldritch Blast cantrip"],
+      "description": "Add your Charisma modifier to damage with Eldritch Blast"
+    },
+    {
+      "name": "Armor of Shadows",
+      "prerequisites": [],
+      "description": "Cast Mage Armor at will without spell slots"
+    },
+    {
+      "name": "Beast Speech",
+      "prerequisites": [],
+      "description": "Cast Speak with Animals at will without spell slots"
+    },
+    {
+      "name": "Beguiling Influence",
+      "prerequisites": [],
+      "description": "Gain proficiency in Deception and Persuasion"
+    },
+    {
+      "name": "Devil's Sight",
+      "prerequisites": [],
+      "description": "See normally in magical and nonmagical darkness to 120ft"
+    },
+    {
+      "name": "Eldritch Sight",
+      "prerequisites": [],
+      "description": "Cast Detect Magic at will without spell slots"
+    },
+    {
+      "name": "Eldritch Spear",
+      "prerequisites": ["Eldritch Blast cantrip"],
+      "description": "Eldritch Blast range increases to 300ft"
+    },
+    {
+      "name": "Fiendish Vigor",
+      "prerequisites": [],
+      "description": "Cast False Life at will without spell slots"
+    },
+    {
+      "name": "Gaze of Two Minds",
+      "prerequisites": [],
+      "description": "Touch a willing humanoid to see/hear through their senses"
+    },
+    {
+      "name": "Mask of Many Faces",
+      "prerequisites": [],
+      "description": "Cast Disguise Self at will without spell slots"
+    },
+    {
+      "name": "Thirsting Blade",
+      "prerequisites": ["Pact of the Blade", "Level 5"],
+      "description": "Attack twice with pact weapon when using Attack action"
+    },
+    {
+      "name": "Repelling Blast",
+      "prerequisites": ["Eldritch Blast cantrip"],
+      "description": "Eldritch Blast pushes target 10ft away on hit"
+    }
+  ]
+}
